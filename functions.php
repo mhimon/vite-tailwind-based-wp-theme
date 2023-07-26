@@ -2,14 +2,17 @@
 /**
  * Functions
  *
- * @package FSBO
+ * Author: Mahbub Hasan Imon <mhimon.dev@gmail.com>
+ * Author URI: https://mhimon.dev / https://ultradevs.com
+ *
+ * @package VTBT
  */
 
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
 // Theme setup.
-function fsbo_theme_setup() {
+function vtbt_theme_setup() {
 
 	// Title Tag.
 	add_theme_support( 'title-tag' );
@@ -26,21 +29,21 @@ function fsbo_theme_setup() {
 	// Register Menus.
 	register_nav_menus(
 		array(
-			'primary' => __( 'Primary Menu', 'fsbo' ),
+			'primary' => __( 'Primary Menu', 'vtbt-theme' ),
 		)
 	);
 
 }
-add_action( 'after_setup_theme', 'fsbo_theme_setup' );
+add_action( 'after_setup_theme', 'vtbt_theme_setup' );
 
 // Enqueue Scripts.
-function fsbo_enqueue_scripts() {
+function vtbt_enqueue_scripts() {
 
 	// Theme Styles.
-	wp_enqueue_style( 'fsbo-style', get_stylesheet_uri(), array(), '1.0.0', 'all' );
+	wp_enqueue_style( 'vtbt-style', get_stylesheet_uri(), array(), '1.0.0', 'all' );
 
 }
-add_action( 'wp_enqueue_scripts', 'fsbo_enqueue_scripts' );
+add_action( 'wp_enqueue_scripts', 'vtbt_enqueue_scripts' );
 
 // Vite.
 require_once get_template_directory() . '/inc/vite.php';

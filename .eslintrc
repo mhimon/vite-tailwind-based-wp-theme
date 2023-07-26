@@ -1,0 +1,6 @@
+{
+	"rules": {
+		"quotes": [0, "single"],
+		"prettier/prettier": 0
+	}
+}

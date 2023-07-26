@@ -1,7 +1,7 @@
 {
-	"name": "fsbo",
+	"name": "vtbt-theme",
 	"version": "1.0.0",
-	"description": "FSBO Theme",
+	"description": "vtbt-theme Theme",
 	"main": "app.js",
 	"author": "Mahbub Hasan Imon",
 	"license": "MIT",

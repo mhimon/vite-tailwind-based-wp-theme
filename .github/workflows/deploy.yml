@@ -18,5 +18,5 @@ jobs:
           compress: true # Compression
           forceUpload: true # Optional, Force uploading all files, Default to false(upload only newer files).
           localDir: "." # Required, Absolute or relative to cwd.
-          remoteDir: "/wp-content/themes/fsbo" # Required, Absolute path only.
+          remoteDir: "/wp-content/themes/vtbt-theme" # Required, Absolute path only.
           exclude: ".git*,.DS_Store,.editorconfig" # Optional. exclude patterns (glob) like .gitignore, use ',' to split, Default to ''.

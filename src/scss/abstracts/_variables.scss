@@ -1,0 +1,31 @@
+/*------------------
+Responsive Media Query Variables
+------------------*/
+$small_mobile: '(max-width: 767px)';
+$large_mobile: 'only screen and (min-width: 480px) and (max-width: 767px)';
+$tab_device: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$lg_device: 'only screen and (min-width: 992px) and (max-width: 1280px)';
+$laptop: '(max-width: 1024px)';
+$desktop: '(min-width: 1281px)';
+$desktop_m: '(max-width: 1450px)';
+
+$ls: '(min-width: 1600px)';
+$big_s: '(min-width: 1900px)';
+
+/*------------------
+Colors
+------------------*/
+$primary-color: #7650F5;
+$secondary-color: #1DA9FF;
+$third-color: #FF0A8D;
+$body-color: #222222;
+$white-color: #ffffff;
+
+
+:root {
+	--primary-color: $primary-color;
+	--body-color: $body-color;
+	--white-color: $white-color;
+	--secondary-color: $secondary-color;
+	--third-color: $third-color;
+}

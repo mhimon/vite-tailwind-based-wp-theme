@@ -2,7 +2,7 @@
 	"name": "mhimon/vtbt",
 	"autoload": {
 		"psr-4": {
-			"Mhimon\\Vtbt\\": "src/"
+			"MHImon\\VTBT\\": "includes/"
 		}
 	},
 	"authors": [

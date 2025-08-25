@@ -45,5 +45,7 @@ function vtbt_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'vtbt_enqueue_scripts' );
 
-// Vite.
-require_once get_template_directory() . '/inc/vite.php';
+// Main File.
+require_once get_template_directory() . '/includes/class-main.php';
+
+require_once get_template_directory() . '/includes/class-vite.php';

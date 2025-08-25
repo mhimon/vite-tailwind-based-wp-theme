@@ -1,0 +1,20 @@
+{
+	"name": "mhimon/vtbt",
+	"autoload": {
+		"psr-4": {
+			"Mhimon\\Vtbt\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "mhimon",
+			"email": "mahbubhasanimon@gmail.com"
+		}
+	],
+	"require": {
+		"pablo-sg-pacheco/wp-namespace-autoloader": "dev-master"
+	},
+	"config": {
+		"preferred-install": "dist"
+	}
+}

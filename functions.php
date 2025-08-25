@@ -1,4 +1,7 @@
 <?php
+
+use MHImon\VTBT\Main;
+use Pablo_Pacheco\WP_Namespace_Autoloader\WP_Namespace_Autoloader;
 /**
  * Functions
  *
@@ -10,6 +13,9 @@
 
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
+
+require_once get_template_directory() . '/vendor/autoload.php';
+
 
 // Theme setup.
 function vtbt_theme_setup() {
@@ -46,6 +52,7 @@ function vtbt_enqueue_scripts() {
 add_action( 'wp_enqueue_scripts', 'vtbt_enqueue_scripts' );
 
 // Main File.
-require_once get_template_directory() . '/includes/class-main.php';
 
-require_once get_template_directory() . '/includes/class-vite.php';
+Main::get_instance();
+
+require_once get_template_directory() . '/includes/vite.php';

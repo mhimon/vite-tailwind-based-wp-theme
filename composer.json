@@ -11,10 +11,5 @@
 			"email": "mahbubhasanimon@gmail.com"
 		}
 	],
-	"require": {
-		"pablo-sg-pacheco/wp-namespace-autoloader": "dev-master"
-	},
-	"config": {
-		"preferred-install": "dist"
-	}
+	"require": {}
 }
